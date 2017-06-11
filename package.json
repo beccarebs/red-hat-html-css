@@ -1,0 +1,27 @@
+{
+  "name": "red-hat-exercise-2",
+  "version": "1.0.0",
+  "description": "A HTML/CSS exercise from Red Hat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beccarebs/red-hat-html-css.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap"
+  ],
+  "author": "Rebecca Elmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beccarebs/red-hat-html-css/issues"
+  },
+  "homepage": "https://github.com/beccarebs/red-hat-html-css#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
