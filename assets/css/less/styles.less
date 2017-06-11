@@ -1,0 +1,47 @@
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+@import "mixins.less";
+
+body{
+	background-image: radial-gradient(#bbbbbb .1vw, #f6f6f6 .1vw);
+	background-size: 2vw 2vw;
+}
+
+.panel{
+	margin-top:200px;
+	.box-shadow(0px, 2px, 5.82px, 0.38);
+	border-color:#bbbbbb;
+	border-top-color:@state-danger-bg;
+
+	.panel-body{
+		min-height:100px;
+	}
+
+	.panel-heading{
+		.box-shadow(0px, 2px, 5.82px, 0.38);
+	}
+
+	.panel-title{
+		font-weight: normal;
+		font-size:12px;
+		font-family: @custom-font;
+		line-height:1.5;
+	}
+}
+
+.panel-danger{
+	> .panel-heading{
+		.badge{
+			background-color:#6f0000;
+			color:#ffffff;
+		}
+	}
+}
+
+.badge{
+	padding: 5px 10px;
+	font-size:11px;
+	font-family: @custom-font;
+	font-weight: bold;
+}
+
